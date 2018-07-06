@@ -16,7 +16,6 @@ module Icalendar
       super 'calendar'
       self.prodid = 'icalendar-ruby'
       self.version = '2.0'
-      self.calscale = 'GREGORIAN'
     end
 
     def publish
